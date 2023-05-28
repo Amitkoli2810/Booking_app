@@ -2,12 +2,13 @@
   "expo": {
     "name": "full_stack_booking_app",
     "slug": "full_stack_booking_app",
+    "description": "This is a full-stack booking app built using React Native and Firebase. The app allows users to search and book hotel rooms, providing necessary details for the booking process. Additionally, the app incorporates Firebase for authentication and data storage, ensuring secure user authentication and efficient data management.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/booking2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/booking.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amit2810.full_stack_booking_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f21fffa-e53c-4264-8f8c-5c5451068910"
+      }
     }
   }
 }
